@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+  font-family: 'Courier New', monospace;
+  color: #0f0;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #0f0;
+}
+
+#info h1 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  text-shadow: 0 0 5px #0f0;
+}
+
+#info p {
+  margin: 0 0 15px 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+#controls button {
+  background: #003300;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 8px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+#controls button:hover {
+  background: #004400;
+  box-shadow: 0 0 5px #0f0;
+}
+
+#stats div {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+canvas {
+  display: block;
+}
