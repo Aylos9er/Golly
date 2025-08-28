@@ -1,0 +1,23 @@
+
+---
+
+### `package.json`
+
+```json
+{
+  "name": "golly-aylos9er",
+  "version": "1.0.0",
+  "description": "Reversible cellular automata 3D toolkit with Golly-inspired algorithms",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["cellular-automata", "golly", "reversible", "3d", "marching-cubes", "delaunay"],
+  "author": "aylos9er",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
