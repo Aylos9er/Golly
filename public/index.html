@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golly - Reversible CA 3D Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="info">
+    <h1>Golly CA Toolkit</h1>
+    <p>Reversible Cellular Automata + Marching Cubes + Delaunay</p>
+    <div id="controls">
+      <button id="stepForward">Step Forward</button>
+      <button id="stepBackward">Step Backward</button>
+      <button id="addDirac">Add Dirac Event</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div id="stats">
+      <div>Step: <span id="stepCount">0</span></div>
+      <div>Active Voxels: <span id="activeCount">0</span></div>
+      <div>Lanes Detected: <span id="laneCount">0</span></div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/delaunator@5.0.0/delaunator.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
